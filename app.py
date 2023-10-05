@@ -12,5 +12,5 @@ df.plot(ax=ax)
 
 st.pyplot(fig)
 
-image = Image.open('https://github.com/unisalledatos/app_geopd/blob/main/test.jpg')
+image = Image.open('https://raw.githubusercontent.com/unisalledatos/app_geopd/main/test.jpg')
 st.image(image)
