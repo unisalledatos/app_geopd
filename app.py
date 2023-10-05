@@ -1,6 +1,7 @@
 import streamlit as st
 import geopandas as gpd
 import matplotlib.pyplot as plt
+from PIL import Image
 
 st.title("Test gpd")
 
@@ -11,4 +12,5 @@ df.plot(ax=ax)
 
 st.pyplot(fig)
 
-st.image("https://github.com/unisalledatos/app_geopd/blob/main/test.jpg")
+image = Image.open('https://github.com/unisalledatos/app_geopd/blob/main/test.jpg')
+st.image(image)
