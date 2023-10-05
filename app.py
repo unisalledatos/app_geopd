@@ -10,3 +10,5 @@ fig, ax = plt.subplots(1, 1)
 df.plot(ax=ax)
 
 st.pyplot(fig)
+
+st.image("https://github.com/unisalledatos/app_geopd/blob/main/test.jpg")
